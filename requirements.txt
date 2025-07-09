@@ -5,3 +5,4 @@ narwhals==1.45.0
 packaging==25.0
 plotly==6.2.0
 joblib==1.4.2
+scikit-learn==1.6.0
