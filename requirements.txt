@@ -4,5 +4,4 @@ numpy
 narwhals==1.45.0
 packaging==25.0
 plotly==6.2.0
-joblib
-cloudpickle==2.2.1
+joblib==1.4.2
