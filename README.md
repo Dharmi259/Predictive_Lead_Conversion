@@ -118,7 +118,7 @@ Check the User Manual for detailed guidance on installation, usage, and troubles
 
 **👥 Author**
 
-Jiya Patel
+Dharmi Patel
 
 📧 [pateldharmi456@gmail.com ]
 ---
