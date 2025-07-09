@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import cloudpickle
 import plotly.express as px
 
 st.set_page_config(page_title="Lead Conversion Predictor", layout="centered")
@@ -9,7 +9,9 @@ st.title("Tara Metal Industries - Lead Conversion Predictor")
 
 @st.cache_resource
 def load_model():
-    return joblib.load('best_lead_conversion_model.pkl')
+    with open("best_lead_conversion_model.pkl", "rb") as f:
+        return cloudpickle.load(f)
+
 
 model = load_model()
 
